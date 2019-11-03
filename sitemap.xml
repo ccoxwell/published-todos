@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/csd/</loc>
+    <lastmod>2019-11-03T16:47:50-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/csd/post/monday-11-04/</loc>
+    <lastmod>2019-11-03T16:47:50-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2019-11-03T16:47:50-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/csp/</loc>
+    <lastmod>2019-11-03T06:06:18-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/csp/post/tuesday-11-05/</loc>
+    <lastmod>2019-11-03T06:06:18-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/series/cs-principles/</loc>
+    <lastmod>2019-11-03T06:01:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/monday-november-11-2019/</loc>
+    <lastmod>2019-11-03T06:01:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/csp/post/monday-11-04/</loc>
+    <lastmod>2019-11-03T06:01:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/</loc>
+    <lastmod>2019-11-03T06:01:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/series/</loc>
+    <lastmod>2019-11-03T06:01:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/series/cs-discoveries/</loc>
+    <lastmod>2019-11-02T19:21:36-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/tuesday-november-5-2019/</loc>
+    <lastmod>2019-11-02T19:21:36-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/series/discoveries/</loc>
+    <lastmod>2019-11-02T18:21:36-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/monday-november-4-2019/</loc>
+    <lastmod>2019-11-02T18:21:36-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+  </url>
+  
+</urlset>

@@ -1,0 +1,189 @@
+/* COLORS!
+Blue Topaz: #67AECA
+Amethyst:   #675682
+Jewel:      #5F0F4E
+Rose:       #E52A6F
+Mustard:    #E9B000
+END COLORS! */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: Montserrat, arial, sans-serif;
+  color: #fff;
+  background-color: #675682;
+}
+
+h1 {
+  font-family: "Staatliches", Georgia, serif;
+  text-decoration: underline overline #E52A6F wavy;
+  text-decoration-skip-ink: none;
+  font-size: 2.5em;
+}
+
+@counter-style emojis {
+  system: cyclic;
+  symbols: "\1F994" "\1F988" "\1F984" "\1F48E" "\1F308" "\1F991";
+  suffix: " ";
+}
+
+#to-do-list ol, #to-do-list ul {
+  list-style: none;
+}
+
+#to-do-list li::before {
+  content: "\1F984";
+  padding-right: 0.5em;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#to-do-list li {
+  text-indent: -1.3em;
+  padding: 0.5em;
+}
+
+@-moz-document url-prefix() {
+    @supports (animation: calc(0s)) {
+        /* Stylo */
+        #to-do-list ol, #to-do-list ul {
+          list-style-type: emojis;
+        }
+        #to-do-list li::before {
+          content: none;
+        }
+        #to-do-list li {
+          text-indent: 0;
+        }
+    }
+}
+
+#to-do-list li:hover {
+  cursor: pointer;
+  text-decoration: line-through;
+}
+
+li.complete {
+  text-decoration: line-through;
+  text-decoration-color: #E52A6F;
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #675682;
+  flex: 1 1 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.col-1, .col-3 {
+  flex: 0 0 92%;
+}
+
+@media (min-width: 849px) {
+  body {
+    background-color: #67AECA;
+  }
+  .container { 
+    align-items: center;
+  }
+  .col-1 {
+    flex: 0 0 50%;
+    background-color: inherit;
+    text-align: right;
+    padding-right: 1em;
+  }
+  .col-3 {
+    flex: 0 0 50%;
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Csds on My New Hugo Site</title>
+    <link>http://example.org/csd/</link>
+    <description>Recent content in Csds on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Nov 2019 16:47:50 -0600</lastBuildDate>
+    
+	<atom:link href="http://example.org/csd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Monday, November 4, 2019</title>
+      <link>http://example.org/csd/post/monday-11-04/</link>
+      <pubDate>Sun, 03 Nov 2019 16:47:50 -0600</pubDate>
+      
+      <guid>http://example.org/csd/post/monday-11-04/</guid>
+      <description> Complete and turn in your Do Now Think: What is your favorite form of entertainment? Complete the Activity Guide Turn in your Activity Guide Take a look at the animations and games in levels 3-6 on Code.org Complete and turn in your Exit Ticket  </description>
+    </item>
+    
+  </channel>
+</rss>
